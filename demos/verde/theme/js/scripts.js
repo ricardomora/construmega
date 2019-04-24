@@ -276,8 +276,8 @@ $(document).ready(function(){
 		function countDownCircular() {
 			$("#DateCountdown").TimeCircles({
 			    "animation": "smooth",
-			    "bg_width": 0.1,
-			    "fg_width": 0.016666666666666666,
+			    "bg_width": 0.01,
+			    "fg_width": 0.011666666666666666,
 			    "circle_bg_color": "#fff",
 			    "time": {
 			        "Days": {
@@ -311,19 +311,19 @@ $(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	/*	GOOGLE MAPS
 	/* ---------------------------------------------------------------------- */
-	var $map 				= $('#map'),
-		$address 			= 'Paseo de la Castellana, 1, 28046, Madrid'; //Here, you put your adress
+	// var $map 				= $('#map'),
+	// 	$address 			= 'Paseo de la Castellana, 1, 28046, Madrid'; //Here, you put your adress
 
-		$map.gMap({
-			address: $address,
-			zoom: 14,
-			scrollwheel: false,
-		    navigationControl: false,
-		    mapTypeControl: false,
-		    scaleControl: false,
-		    draggable: false,
-		    mapTypeId: google.maps.MapTypeId.ROADMAP
-		});
+	// 	$map.gMap({
+	// 		address: $address,
+	// 		zoom: 14,
+	// 		scrollwheel: false,
+	// 	    navigationControl: false,
+	// 	    mapTypeControl: false,
+	// 	    scaleControl: false,
+	// 	    draggable: false,
+	// 	    mapTypeId: google.maps.MapTypeId.ROADMAP
+	// 	});
 		
 	/* ---------------------------------------------------------------------- */
 	/*  TOOLTIP
